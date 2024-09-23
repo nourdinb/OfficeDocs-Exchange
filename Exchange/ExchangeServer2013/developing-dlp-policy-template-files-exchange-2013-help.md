@@ -57,7 +57,6 @@ DLP Policy templates are expressed as XML documents which adhere to the followin
     </description>
     <keywords></keywords>
     <ruleParameters></ruleParameters>
-    <ruleParameters/>
     <policyCommands>
       <!-- The contents below are applied/executed as rules directly in PS - -->
       <commandBlock>
@@ -127,7 +126,7 @@ The format of the cmdlets is the standard Exchange Management Shell cmdlet synta
 <CommandBlock>
   <![CDATA[
 $rulePack = [system.Text.Encoding]::Unicode.GetBytes('<?xml version="1.0" encoding="utf-8"?>
-<rulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
+<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
   <RulePack id="c3f021a3-c265-4dc2-b3a7-41a1800bf518">
     <Version major="1" minor="0" build="0" revision="0"/>
     <Publisher id="e17451d3-9648-4117-a0b1-493a6d5c73ad"/>
